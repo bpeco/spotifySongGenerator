@@ -7,9 +7,10 @@ This project is an educational experiment that explores the use of large languag
 ## ⚙️ Pipeline Overview
 
 ### 1. Data Extraction
-- **Lyrics source:** `letras.com` (manual scraping)
-- **Metadata source:** Spotify audio features were not used due to API deprecation.
-- The current version processes 10 songs from a fixed artist (**Jorge Drexler**).
+- Uses Spotify's **artist's top tracks API** to retrieve song titles.
+- Then scrapes lyrics from `letras.com` using those titles.
+- **Audio features are not used** due to API deprecation.
+- The current version works with 10 songs from **Jorge Drexler**.
 
 ### 2. Enriching with LLM
 Each song is processed to extract:
