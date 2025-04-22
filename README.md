@@ -31,7 +31,8 @@ Each song is processed to extract:
 
 - `01-get_connection.py`: handles secrets (excluded from Git)
 - `02-process_songs.py`: scrapes and prepares raw lyrics
-- `03-main.py`: runs the full pipeline
+- `03-main.py`: UI built with [Streamlit](https://streamlit.io/) for interactive generation
+    - It currently allows the user to input desired song features (tag, mood, and length) and generates a new song based on similar ones.
 - `llm_helper.py`: prompt engineering and LLM helpers
 - `song_generator.py`: generates the new lyrics
 - `few_shot.py`: few-shot examples for prompting
