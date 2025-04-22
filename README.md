@@ -45,7 +45,6 @@ Each song is processed to extract:
 
 - Only supports one fixed artist.
 - No audio features are used due to deprecated Spotify API.
-- No user interface yet (inputs are hardcoded).
 
 ---
 
@@ -54,7 +53,6 @@ Each song is processed to extract:
 - [ ] Allow user to choose artist (from 10 preselected ones).
 - [ ] Let the user define how many songs to process.
 - [ ] Add semantic similarity filtering (clustering, vector DBs).
-- [ ] Provide web interface for interaction.
 
 ---
 
