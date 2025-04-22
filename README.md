@@ -4,7 +4,9 @@ This project is an educational experiment that explores the use of large languag
 
 ---
 
-## ⚙️ Pipeline Overview
+## 🧭 Pipeline Overview
+
+![Pipeline Overview](assets/pipeline_songGenerator.png)
 
 ### 1. Data Extraction
 - Uses Spotify's **artist's top tracks API** to retrieve song titles.
@@ -29,7 +31,8 @@ Each song is processed to extract:
 
 - `01-get_connection.py`: handles secrets (excluded from Git)
 - `02-process_songs.py`: scrapes and prepares raw lyrics
-- `03-main.py`: runs the full pipeline
+- `03-main.py`: UI built with [Streamlit](https://streamlit.io/) for interactive generation
+    - It currently allows the user to input desired song features (tag, mood, and length) and generates a new song based on similar ones.
 - `llm_helper.py`: prompt engineering and LLM helpers
 - `song_generator.py`: generates the new lyrics
 - `few_shot.py`: few-shot examples for prompting
@@ -42,7 +45,6 @@ Each song is processed to extract:
 
 - Only supports one fixed artist.
 - No audio features are used due to deprecated Spotify API.
-- No user interface yet (inputs are hardcoded).
 
 ---
 
@@ -51,7 +53,6 @@ Each song is processed to extract:
 - [ ] Allow user to choose artist (from 10 preselected ones).
 - [ ] Let the user define how many songs to process.
 - [ ] Add semantic similarity filtering (clustering, vector DBs).
-- [ ] Provide web interface for interaction.
 
 ---
 
@@ -59,15 +60,7 @@ Each song is processed to extract:
 
 - This is a **non-commercial** educational project.
 - All rights for the lyrics belong to their **authors and publishers**.
-- Lyrics and data were obtained from `letras.com` and `Spotify`.
+- Lyrics and data were obtained from `https://www.letras.com` and `Spotify`.
 - No redistribution or commercial use of derived works is intended.
-
----
-
-## 🧠 Inspired by
-
-- Creative potential of LLMs
-- Intersection of music and generative AI
-- Personalized content generation projects
 
 ---
