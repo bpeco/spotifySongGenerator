@@ -60,15 +60,7 @@ Each song is processed to extract:
 
 - This is a **non-commercial** educational project.
 - All rights for the lyrics belong to their **authors and publishers**.
-- Lyrics and data were obtained from `letras.com` and `Spotify`.
+- Lyrics and data were obtained from `https://www.letras.com` and `Spotify`.
 - No redistribution or commercial use of derived works is intended.
-
----
-
-## 🧠 Inspired by
-
-- Creative potential of LLMs
-- Intersection of music and generative AI
-- Personalized content generation projects
 
 ---
